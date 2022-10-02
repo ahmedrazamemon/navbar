@@ -1,0 +1,128 @@
+body{
+    margin-top:0;
+    padding: 0;
+  background-color: rgb(169, 170, 144); 
+   
+}
+.container{
+    color: white;
+    text-align: center;
+    background-color:cadetblue;
+   
+}
+.container ul{
+    display: inline-flex;
+    list-style: none;
+}
+.container ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.container ul li {
+        width: 160px;
+        margin: 5px;
+        font-size: 22px;
+        font-weight: bold;
+        padding: 10px;
+}
+.container ul li a:hover{
+        border: 2px solid cadetblue;
+        background-color: rgb(114, 130, 131);
+        color:aliceblue;
+        font-size:27px;
+        padding: 10px;
+        border-radius:5px;
+}
+.sbm-1{
+    display: none;
+}
+.container ul li:hover .sbm-1{
+    display: block;
+    position: absolute;
+    margin-top:13px;
+}
+.container ul li:hover .sbm-1 ul{
+    display: block;
+    color: white;
+   color: gold;
+   background-color: black; 
+    width:100px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px white;
+}
+.sbm-1 ul li:hover {
+ 
+   
+    border: 1px solid silver;
+    border-radius: 5px;
+    width: 50px;
+    color:rgb(32, 30, 30);
+    background-color:rgb(177, 177, 177);
+    font-size: 37px;
+}
+.sbm-2{
+    display: none;
+}
+.sbm-1 ul li:hover .sbm-2 {
+    display: block;
+    position: absolute;
+    margin-left: 80px;
+    margin-top: -30px;
+}
+.sbm-1 ul li:hover .sbm-2 ul{
+  
+    color: blue;
+    background-color:silver;
+    border: 1px solid black;
+}
+
+H1{
+    text-align: center;
+    color: black;
+    /* color: rgb(190, 220, 148); */
+}
+.sbm-3{
+    display: none;
+}
+.container ul li:hover .sbm-3{
+    display: block;
+    position: absolute;
+}
+.container ul li:hover .sbm-3 ul{
+    display: block;
+    box-shadow: 3px 3px 10px white;
+  
+    color: gold;
+    background-color: black;
+  
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid black;
+    text-align: left;
+  
+    margin-top:20px ;
+}
+.sbm-3 ul li:hover{
+    color:rgb(32, 30, 30);
+    background-color:rgb(177, 177, 177);
+    width: 50px;
+    font-size: 37px;
+    
+}
+.sbm-4{
+    display: none;
+}
+.sbm-3 ul li:hover .sbm-4{
+    display: block;
+    position: absolute;
+    margin-top: -50px;
+    margin-left:80px;
+}
+.sbm-3 ul li:hover .sbm-4 ul{
+    width: 100px;
+    color: blue;
+    background-color: silver;
+    border: 1px solid black;
+}
